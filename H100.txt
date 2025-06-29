@@ -1,0 +1,123 @@
+H100
+a3-highgpu-1g
+
+[2025-06-29T10:14:10.310Z INFO ] PROVER initializing host allocator with 8 x 1 GB
+[2025-06-29T10:14:12.922Z INFO ] PROVER host allocator initialized
+[2025-06-29T10:14:12.922Z INFO ] GPU_MANAGER found 1 CUDA capable device(s)
+[2025-06-29T10:14:12.923Z INFO ] PROVER thread pool with 26 threads created
+[2025-06-29T10:14:12.923Z INFO ] PROVER producing precomputations for main circuit RiscVCycles with binary 0
+[2025-06-29T10:14:12.923Z INFO ] GPU_WORKER[0] GPU: NVIDIA H100 80GB HBM3 (132 SMs, 79.179 GB RAM)
+[2025-06-29T10:14:13.018Z INFO ] GPU_WORKER[0] initialized the GPU memory allocator with 78.621 GB of usable memory
+[2025-06-29T10:14:29.070Z INFO ] PROVER produced precomputations for main circuit RiscVCycles with binary 0
+[2025-06-29T10:14:29.070Z INFO ] PROVER producing precomputations for main circuit ReducedRiscVMachine with binary 1
+[2025-06-29T10:14:43.938Z INFO ] PROVER produced precomputations for main circuit ReducedRiscVMachine with binary 1
+[2025-06-29T10:14:43.938Z INFO ] PROVER producing precomputations for all delegation circuits
+[2025-06-29T10:14:51.818Z INFO ] PROVER produced precomputations for all delegation circuits
+**** proving using GPU ****
+[2025-06-29T10:14:51.823Z INFO ] BATCH[0] PROVER producing memory commitments for binary with key 0
+[2025-06-29T10:14:56.380Z INFO ] BATCH[0] PROVER produced memory commitments for binary with key 0 in 4.558s
+[2025-06-29T10:14:56.381Z INFO ] BATCH[0] PROVER producing proofs for binary with key 0
+[2025-06-29T10:15:11.672Z INFO ] BATCH[0] PROVER produced proofs for binary with key 0 in 15.291s
+[2025-06-29T10:15:11.672Z INFO ] BATCH[0] PROVER committed to memory and produced proofs for binary with key 0 in 19.851s
+**** proofs generated in 19.851s ****
+Created 101 basic proofs, 0 reduced proofs and 7 delegation proofs. Final proofs: 0
+*** Starting recursion level 0 ***
+**** proving using GPU ****
+[2025-06-29T10:15:11.741Z INFO ] BATCH[0] PROVER producing memory commitments for binary with key 1
+[2025-06-29T10:15:14.462Z INFO ] BATCH[0] PROVER produced memory commitments for binary with key 1 in 2.721s
+[2025-06-29T10:15:14.463Z INFO ] BATCH[0] PROVER producing proofs for binary with key 1
+[2025-06-29T10:15:20.632Z INFO ] BATCH[0] PROVER produced proofs for binary with key 1 in 6.169s
+[2025-06-29T10:15:20.632Z INFO ] BATCH[0] PROVER committed to memory and produced proofs for binary with key 1 in 8.904s
+**** proofs generated in 8.904s ****
+Created 0 basic proofs, 44 reduced proofs and 7 delegation proofs. Final proofs: 0
+*** Starting recursion level 1 ***
+**** proving using GPU ****
+[2025-06-29T10:15:20.668Z INFO ] BATCH[0] PROVER producing memory commitments for binary with key 1
+[2025-06-29T10:15:22.017Z INFO ] BATCH[0] PROVER produced memory commitments for binary with key 1 in 1.349s
+[2025-06-29T10:15:22.017Z INFO ] BATCH[0] PROVER producing proofs for binary with key 1
+[2025-06-29T10:15:25.201Z INFO ] BATCH[0] PROVER produced proofs for binary with key 1 in 3.183s
+[2025-06-29T10:15:25.201Z INFO ] BATCH[0] PROVER committed to memory and produced proofs for binary with key 1 in 4.540s
+**** proofs generated in 4.540s ****
+Created 0 basic proofs, 22 reduced proofs and 4 delegation proofs. Final proofs: 0
+*** Starting recursion level 2 ***
+**** proving using GPU ****
+[2025-06-29T10:15:25.222Z INFO ] BATCH[0] PROVER producing memory commitments for binary with key 1
+[2025-06-29T10:15:25.969Z INFO ] BATCH[0] PROVER produced memory commitments for binary with key 1 in 0.747s
+[2025-06-29T10:15:25.969Z INFO ] BATCH[0] PROVER producing proofs for binary with key 1
+[2025-06-29T10:15:27.716Z INFO ] BATCH[0] PROVER produced proofs for binary with key 1 in 1.747s
+[2025-06-29T10:15:27.716Z INFO ] BATCH[0] PROVER committed to memory and produced proofs for binary with key 1 in 2.498s
+**** proofs generated in 2.498s ****
+Created 0 basic proofs, 12 reduced proofs and 2 delegation proofs. Final proofs: 0
+*** Starting recursion level 3 ***
+**** proving using GPU ****
+[2025-06-29T10:15:27.725Z INFO ] BATCH[0] PROVER producing memory commitments for binary with key 1
+[2025-06-29T10:15:28.145Z INFO ] BATCH[0] PROVER produced memory commitments for binary with key 1 in 0.420s
+[2025-06-29T10:15:28.145Z INFO ] BATCH[0] PROVER producing proofs for binary with key 1
+[2025-06-29T10:15:29.038Z INFO ] BATCH[0] PROVER produced proofs for binary with key 1 in 0.893s
+[2025-06-29T10:15:29.039Z INFO ] BATCH[0] PROVER committed to memory and produced proofs for binary with key 1 in 1.315s
+**** proofs generated in 1.315s ****
+Created 0 basic proofs, 6 reduced proofs and 1 delegation proofs. Final proofs: 0
+*** Starting recursion level 4 ***
+**** proving using GPU ****
+[2025-06-29T10:15:29.044Z INFO ] BATCH[0] PROVER producing memory commitments for binary with key 1
+[2025-06-29T10:15:29.277Z INFO ] BATCH[0] PROVER produced memory commitments for binary with key 1 in 0.232s
+[2025-06-29T10:15:29.277Z INFO ] BATCH[0] PROVER producing proofs for binary with key 1
+[2025-06-29T10:15:29.843Z INFO ] BATCH[0] PROVER produced proofs for binary with key 1 in 0.567s
+[2025-06-29T10:15:29.843Z INFO ] BATCH[0] PROVER committed to memory and produced proofs for binary with key 1 in 0.800s
+**** proofs generated in 0.800s ****
+Created 0 basic proofs, 3 reduced proofs and 1 delegation proofs. Final proofs: 0
+*** Starting recursion level 5 ***
+**** proving using GPU ****
+[2025-06-29T10:15:29.847Z INFO ] BATCH[0] PROVER producing memory commitments for binary with key 1
+[2025-06-29T10:15:30.010Z INFO ] BATCH[0] PROVER produced memory commitments for binary with key 1 in 0.163s
+[2025-06-29T10:15:30.010Z INFO ] BATCH[0] PROVER producing proofs for binary with key 1
+[2025-06-29T10:15:30.452Z INFO ] BATCH[0] PROVER produced proofs for binary with key 1 in 0.442s
+[2025-06-29T10:15:30.452Z INFO ] BATCH[0] PROVER committed to memory and produced proofs for binary with key 1 in 0.606s
+**** proofs generated in 0.606s ****
+Created 0 basic proofs, 2 reduced proofs and 1 delegation proofs. Final proofs: 0
+Stopping recursion.
+Writing proofs to "output"
+**** Total time on production critical path 38.515s ****
+
+
+# gpu    pwr  gtemp  mtemp     sm    mem    enc    dec    jpg    ofa   mclk   pclk 
+# Idx      W      C      C      %      %      %      %      %      %    MHz    MHz 
+    0    127     32     40     17      3      0      0      0      0   2619   1980 
+    0    192     33     39     25      8      0      0      0      0   2619   1980 
+    0    190     33     39     34     11      0      0      0      0   2619   1980 
+    0    188     33     41     17      5      0      0      0      0   2619   1980 
+    0    192     35     41     25      8      0      0      0      0   2619   1980 
+    0    388     41     44     98     35      0      0      0      0   2619   1980 
+    0    493     41     45     97     25      0      0      0      0   2619   1980 
+    0    501     42     46     99     31      0      0      0      0   2619   1980 
+    0    505     45     45     98     30      0      0      0      0   2619   1980 
+    0    491     43     46     98     36      0      0      0      0   2619   1980 
+    0    464     45     46     98     27      0      0      0      0   2619   1980 
+    0    502     45     47     97     31      0      0      0      0   2619   1980 
+    0    505     45     47     98     31      0      0      0      0   2619   1980 
+    0    503     46     48     98     32      0      0      0      0   2619   1980 
+    0    506     47     48     98     25      0      0      0      0   2619   1980 
+    0    503     47     49     98     30      0      0      0      0   2619   1980 
+    0    511     45     50     97     35      0      0      0      0   2619   1980 
+    0    510     47     48     98     34      0      0      0      0   2619   1980 
+    0    505     47     49     98     34      0      0      0      0   2619   1980 
+    0    501     48     50     99     30      0      0      0      0   2619   1980 
+    0    345     39     45     32      6      0      0      0      0   2619   1980 
+    0    187     38     45     48      9      0      0      0      0   2619   1980 
+    0    193     39     45     30      6      0      0      0      0   2619   1980 
+    0    390     46     47     98     32      0      0      0      0   2619   1980 
+    0    495     47     47     99     22      0      0      0      0   2619   1980 
+    0    499     47     47     97     23      0      0      0      0   2619   1980 
+    0    497     47     49     97     27      0      0      0      0   2619   1980 
+    0    508     48     50     97     32      0      0      0      0   2619   1980 
+    0    516     48     51     98     28      0      0      0      0   2619   1980 
+    0    296     40     45     75     10      0      0      0      0   2619   1980 
+    0    234     41     45     66     19      0      0      0      0   2619   1980 
+    0    507     48     50     97     32      0      0      0      0   2619   1980 
+    0    502     49     49     99     20      0      0      0      0   2619   1980 
+    0    481     48     49     98     31      0      0      0      0   2619   1980 
+    0    281     46     49     16      3      0      0      0      0   2619   1980 
+    0    505     49     51     98     32      0      0      0      0   2619   1980 
+    0    324     42     47     76      9      0      0      0      0   2619   1980 
+    0    414     42     47     15      3      0      0      0      0   2619   1980 
+    0    407     45     49     73     25      0      0      0      0   2619   1980 

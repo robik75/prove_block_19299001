@@ -1,0 +1,155 @@
+A100
+a2-highgpu-1g
+
+[2025-06-29T10:28:28.889Z INFO ] PROVER initializing host allocator with 8 x 1 GB
+[2025-06-29T10:28:33.323Z INFO ] PROVER host allocator initialized
+[2025-06-29T10:28:33.323Z INFO ] GPU_MANAGER found 1 CUDA capable device(s)
+[2025-06-29T10:28:33.324Z INFO ] PROVER thread pool with 12 threads created
+[2025-06-29T10:28:33.324Z INFO ] PROVER producing precomputations for main circuit RiscVCycles with binary 0
+[2025-06-29T10:28:33.325Z INFO ] GPU_WORKER[0] GPU: NVIDIA A100-SXM4-40GB (108 SMs, 39.494 GB RAM)
+[2025-06-29T10:28:33.414Z INFO ] GPU_WORKER[0] initialized the GPU memory allocator with 39.031 GB of usable memory
+[2025-06-29T10:29:01.536Z INFO ] PROVER produced precomputations for main circuit RiscVCycles with binary 0
+[2025-06-29T10:29:01.536Z INFO ] PROVER producing precomputations for main circuit ReducedRiscVMachine with binary 1
+[2025-06-29T10:29:27.658Z INFO ] PROVER produced precomputations for main circuit ReducedRiscVMachine with binary 1
+[2025-06-29T10:29:27.658Z INFO ] PROVER producing precomputations for all delegation circuits
+[2025-06-29T10:29:41.869Z INFO ] PROVER produced precomputations for all delegation circuits
+**** proving using GPU ****
+[2025-06-29T10:29:41.877Z INFO ] BATCH[0] PROVER producing memory commitments for binary with key 0
+[2025-06-29T10:29:51.138Z INFO ] BATCH[0] PROVER produced memory commitments for binary with key 0 in 9.261s
+[2025-06-29T10:29:51.139Z INFO ] BATCH[0] PROVER producing proofs for binary with key 0
+[2025-06-29T10:30:17.864Z INFO ] BATCH[0] PROVER produced proofs for binary with key 0 in 26.725s
+[2025-06-29T10:30:17.864Z INFO ] BATCH[0] PROVER committed to memory and produced proofs for binary with key 0 in 35.990s
+**** proofs generated in 35.990s ****
+Created 101 basic proofs, 0 reduced proofs and 7 delegation proofs. Final proofs: 0
+*** Starting recursion level 0 ***
+**** proving using GPU ****
+[2025-06-29T10:30:17.951Z INFO ] BATCH[0] PROVER producing memory commitments for binary with key 1
+[2025-06-29T10:30:23.415Z INFO ] BATCH[0] PROVER produced memory commitments for binary with key 1 in 5.465s
+[2025-06-29T10:30:23.416Z INFO ] BATCH[0] PROVER producing proofs for binary with key 1
+[2025-06-29T10:30:34.480Z INFO ] BATCH[0] PROVER produced proofs for binary with key 1 in 11.064s
+[2025-06-29T10:30:34.480Z INFO ] BATCH[0] PROVER committed to memory and produced proofs for binary with key 1 in 16.552s
+**** proofs generated in 16.552s ****
+Created 0 basic proofs, 44 reduced proofs and 7 delegation proofs. Final proofs: 0
+*** Starting recursion level 1 ***
+**** proving using GPU ****
+[2025-06-29T10:30:34.547Z INFO ] BATCH[0] PROVER producing memory commitments for binary with key 1
+[2025-06-29T10:30:37.292Z INFO ] BATCH[0] PROVER produced memory commitments for binary with key 1 in 2.744s
+[2025-06-29T10:30:37.292Z INFO ] BATCH[0] PROVER producing proofs for binary with key 1
+[2025-06-29T10:30:43.065Z INFO ] BATCH[0] PROVER produced proofs for binary with key 1 in 5.773s
+[2025-06-29T10:30:43.065Z INFO ] BATCH[0] PROVER committed to memory and produced proofs for binary with key 1 in 8.529s
+**** proofs generated in 8.529s ****
+Created 0 basic proofs, 22 reduced proofs and 4 delegation proofs. Final proofs: 0
+*** Starting recursion level 2 ***
+**** proving using GPU ****
+[2025-06-29T10:30:43.100Z INFO ] BATCH[0] PROVER producing memory commitments for binary with key 1
+[2025-06-29T10:30:44.621Z INFO ] BATCH[0] PROVER produced memory commitments for binary with key 1 in 1.521s
+[2025-06-29T10:30:44.621Z INFO ] BATCH[0] PROVER producing proofs for binary with key 1
+[2025-06-29T10:30:47.867Z INFO ] BATCH[0] PROVER produced proofs for binary with key 1 in 3.246s
+[2025-06-29T10:30:47.867Z INFO ] BATCH[0] PROVER committed to memory and produced proofs for binary with key 1 in 4.773s
+**** proofs generated in 4.773s ****
+Created 0 basic proofs, 12 reduced proofs and 2 delegation proofs. Final proofs: 0
+*** Starting recursion level 3 ***
+**** proving using GPU ****
+[2025-06-29T10:30:47.884Z INFO ] BATCH[0] PROVER producing memory commitments for binary with key 1
+[2025-06-29T10:30:48.733Z INFO ] BATCH[0] PROVER produced memory commitments for binary with key 1 in 0.849s
+[2025-06-29T10:30:48.733Z INFO ] BATCH[0] PROVER producing proofs for binary with key 1
+[2025-06-29T10:30:50.527Z INFO ] BATCH[0] PROVER produced proofs for binary with key 1 in 1.794s
+[2025-06-29T10:30:50.527Z INFO ] BATCH[0] PROVER committed to memory and produced proofs for binary with key 1 in 2.646s
+**** proofs generated in 2.647s ****
+Created 0 basic proofs, 6 reduced proofs and 1 delegation proofs. Final proofs: 0
+*** Starting recursion level 4 ***
+**** proving using GPU ****
+[2025-06-29T10:30:50.536Z INFO ] BATCH[0] PROVER producing memory commitments for binary with key 1
+[2025-06-29T10:30:50.994Z INFO ] BATCH[0] PROVER produced memory commitments for binary with key 1 in 0.458s
+[2025-06-29T10:30:50.994Z INFO ] BATCH[0] PROVER producing proofs for binary with key 1
+[2025-06-29T10:30:52.129Z INFO ] BATCH[0] PROVER produced proofs for binary with key 1 in 1.136s
+[2025-06-29T10:30:52.129Z INFO ] BATCH[0] PROVER committed to memory and produced proofs for binary with key 1 in 1.595s
+**** proofs generated in 1.595s ****
+Created 0 basic proofs, 3 reduced proofs and 1 delegation proofs. Final proofs: 0
+*** Starting recursion level 5 ***
+**** proving using GPU ****
+[2025-06-29T10:30:52.135Z INFO ] BATCH[0] PROVER producing memory commitments for binary with key 1
+[2025-06-29T10:30:52.470Z INFO ] BATCH[0] PROVER produced memory commitments for binary with key 1 in 0.335s
+[2025-06-29T10:30:52.470Z INFO ] BATCH[0] PROVER producing proofs for binary with key 1
+[2025-06-29T10:30:53.304Z INFO ] BATCH[0] PROVER produced proofs for binary with key 1 in 0.834s
+[2025-06-29T10:30:53.304Z INFO ] BATCH[0] PROVER committed to memory and produced proofs for binary with key 1 in 1.170s
+**** proofs generated in 1.170s ****
+Created 0 basic proofs, 2 reduced proofs and 1 delegation proofs. Final proofs: 0
+Stopping recursion.
+Writing proofs to "output"
+**** Total time on production critical path 71.255s ****
+
+
+# gpu    pwr  gtemp  mtemp     sm    mem    enc    dec    jpg    ofa   mclk   pclk 
+# Idx      W      C      C      %      %      %      %      %      %    MHz    MHz 
+    0    125     33     41     32      6      0      0      0      0   1215   1410 
+    0    274     34     41     33      5      0      0      0      0   1215   1410 
+    0     82     34     41     74     10      0      0      0      0   1215   1410 
+    0    133     34     41     37      7      0      0      0      0   1215   1410 
+    0    144     35     41     16      3      0      0      0      0   1215   1410 
+    0    100     36     41     29      9      0      0      0      0   1215   1410 
+    0     69     34     41     29      9      0      0      0      0   1215   1410 
+    0     67     34     41     42      8      0      0      0      0   1215   1170 
+    0    116     34     41     14      5      0      0      0      0   1215   1170 
+    0    264     42     42     98     37      0      0      0      0   1215   1410 
+    0    260     44     43     98     41      0      0      0      0   1215   1410 
+    0    258     46     44     98     41      0      0      0      0   1215   1410 
+    0    259     46     45     98     38      0      0      0      0   1215   1410 
+    0    291     46     45     98     41      0      0      0      0   1215   1410 
+    0    271     46     45     98     40      0      0      0      0   1215   1410 
+    0    329     48     45     98     42      0      0      0      0   1215   1410 
+    0    330     49     46     98     42      0      0      0      0   1215   1410 
+    0    315     50     47     98     43      0      0      0      0   1215   1410 
+    0    331     50     47    100     38      0      0      0      0   1215   1410 
+    0    209     48     46     99     39      0      0      0      0   1215   1410 
+    0    264     50     47     98     43      0      0      0      0   1215   1410 
+    0    227     51     47     98     33      0      0      0      0   1215   1410 
+    0    322     51     47     98     36      0      0      0      0   1215   1410 
+    0    319     52     49     98     39      0      0      0      0   1215   1410 
+    0    342     51     50     99     39      0      0      0      0   1215   1410 
+    0    280     50     48     98     38      0      0      0      0   1215   1410 
+    0    192     51     48     98     43      0      0      0      0   1215   1410 
+    0    346     53     51     98     42      0      0      0      0   1215   1410 
+    0    312     52     50     98     39      0      0      0      0   1215   1410 
+    0    271     51     48     99     35      0      0      0      0   1215   1410 
+    0    192     52     51     99     35      0      0      0      0   1215   1410 
+    0    331     53     51     98     39      0      0      0      0   1215   1410 
+    0    323     54     49     98     43      0      0      0      0   1215   1410 
+    0    343     54     51     99     35      0      0      0      0   1215   1410 
+    0    271     54     51     99     40      0      0      0      0   1215   1410 
+    0     78     48     49     98     43      0      0      0      0   1215   1410 
+    0    121     46     48     26      6      0      0      0      0   1215   1410 
+    0    112     43     48     46      6      0      0      0      0   1215   1410 
+    0     73     43     47     71     11      0      0      0      0   1215   1410 
+    0     79     42     47     42      9      0      0      0      0   1215   1410 
+    0     96     42     47     40      8      0      0      0      0   1215   1410 
+    0    333     49     48     31     13      0      0      0      0   1215   1410 
+    0    317     52     48     99     32      0      0      0      0   1215   1410 
+    0    338     53     50     98     37      0      0      0      0   1215   1410 
+    0    323     52     51     98     39      0      0      0      0   1215   1410 
+    0    341     54     49     98     40      0      0      0      0   1215   1410 
+    0    344     54     52     99     36      0      0      0      0   1215   1410 
+    0    289     53     51     98     35      0      0      0      0   1215   1410 
+    0    325     54     50     98     31      0      0      0      0   1215   1410 
+    0    332     55     52     99     36      0      0      0      0   1215   1410 
+    0    292     55     52     99     35      0      0      0      0   1215   1410 
+    0    251     55     52     98     39      0      0      0      0   1215   1410 
+    0     88     46     49     31      6      0      0      0      0   1215   1410 
+    0    199     44     48     16      3      0      0      0      0   1215   1410 
+    0    104     43     48     16      3      0      0      0      0   1215   1410 
+    0    291     52     49     98     39      0      0      0      0   1215   1410 
+    0    286     54     50     99     36      0      0      0      0   1215   1410 
+    0    328     54     51     98     34      0      0      0      0   1215   1410 
+    0    228     55     52     99     40      0      0      0      0   1215   1410 
+    0    327     55     54    100     26      0      0      0      0   1215   1410 
+    0    100     49     50     98     41      0      0      0      0   1215   1410 
+    0     86     46     49     65      8      0      0      0      0   1215   1410 
+    0    334     51     49      2      2      0      0      0      0   1215   1410 
+    0    292     53     50     98     39      0      0      0      0   1215   1410 
+    0    339     55     53     98     37      0      0      0      0   1215   1410 
+    0    197     47     49      0      0      0      0      0      0   1215   1410 
+    0    199     47     49     33     15      0      0      0      0   1215   1410 
+    0    312     54     50     98     40      0      0      0      0   1215   1410 
+    0     84     49     50     92     19      0      0      0      0   1215   1410 
+    0     77     48     49     98     39      0      0      0      0   1215   1410 
+    0    325     55     53     99     27      0      0      0      0   1215   1410 
