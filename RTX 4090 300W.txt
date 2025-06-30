@@ -1,0 +1,129 @@
+4090 300W
+AMD Ryzen Threadripper PRO 5975WX
+
+[2025-06-30T13:21:32.548Z INFO ] PROVER initializing host allocator with 8 x 1 GB
+[2025-06-30T13:21:36.812Z INFO ] PROVER host allocator initialized
+[2025-06-30T13:21:36.815Z INFO ] PROVER thread pool with 31 threads created
+[2025-06-30T13:21:36.815Z INFO ] PROVER producing precomputations for main circuit RiscVCycles with binary 0
+[2025-06-30T13:21:49.866Z INFO ] PROVER produced precomputations for main circuit RiscVCycles with binary 0
+[2025-06-30T13:21:49.866Z INFO ] PROVER producing precomputations for main circuit ReducedRiscVMachine with binary 1
+[2025-06-30T13:22:03.449Z INFO ] PROVER produced precomputations for main circuit ReducedRiscVMachine with binary 1
+[2025-06-30T13:22:03.449Z INFO ] PROVER producing precomputations for all delegation circuits
+[2025-06-30T13:22:09.351Z INFO ] PROVER produced precomputations for all delegation circuits
+[2025-06-30T13:22:09.351Z INFO ] GPU_MANAGER found 1 CUDA capable device(s)
+[2025-06-30T13:22:09.354Z INFO ] GPU_WORKER[0] GPU: NVIDIA GeForce RTX 4090 (128 SMs, 23.527 GB RAM)
+[2025-06-30T13:22:09.449Z INFO ] GPU_WORKER[0] initialized the GPU memory allocator with 23.090 GB of usable memory
+**** proving using GPU ****
+[2025-06-30T13:22:09.458Z INFO ] BATCH[0] PROVER producing memory commitments for binary with key 0
+[2025-06-30T13:22:13.743Z INFO ] BATCH[0] PROVER produced memory commitments for binary with key 0 in 4.285s
+[2025-06-30T13:22:13.745Z INFO ] BATCH[0] PROVER producing proofs for binary with key 0
+[2025-06-30T13:22:33.269Z INFO ] BATCH[0] PROVER produced proofs for binary with key 0 in 19.525s
+[2025-06-30T13:22:33.270Z INFO ] BATCH[0] PROVER committed to memory and produced proofs for binary with key 0 in 23.813s
+**** proofs generated in 23.813s ****
+Created 101 basic proofs, 0 reduced proofs and 7 delegation proofs. Final proofs: 0
+*** Starting recursion level 0 ***
+**** proving using GPU ****
+[2025-06-30T13:22:33.419Z INFO ] BATCH[0] PROVER producing memory commitments for binary with key 1
+[2025-06-30T13:22:36.462Z INFO ] BATCH[0] PROVER produced memory commitments for binary with key 1 in 3.043s
+[2025-06-30T13:22:36.463Z INFO ] BATCH[0] PROVER producing proofs for binary with key 1
+[2025-06-30T13:22:44.139Z INFO ] BATCH[0] PROVER produced proofs for binary with key 1 in 7.676s
+[2025-06-30T13:22:44.139Z INFO ] BATCH[0] PROVER committed to memory and produced proofs for binary with key 1 in 10.729s
+**** proofs generated in 10.729s ****
+Created 0 basic proofs, 44 reduced proofs and 7 delegation proofs. Final proofs: 0
+*** Starting recursion level 1 ***
+**** proving using GPU ****
+[2025-06-30T13:22:44.199Z INFO ] BATCH[0] PROVER producing memory commitments for binary with key 1
+[2025-06-30T13:22:45.501Z INFO ] BATCH[0] PROVER produced memory commitments for binary with key 1 in 1.303s
+[2025-06-30T13:22:45.502Z INFO ] BATCH[0] PROVER producing proofs for binary with key 1
+[2025-06-30T13:22:49.454Z INFO ] BATCH[0] PROVER produced proofs for binary with key 1 in 3.952s
+[2025-06-30T13:22:49.454Z INFO ] BATCH[0] PROVER committed to memory and produced proofs for binary with key 1 in 5.259s
+**** proofs generated in 5.259s ****
+Created 0 basic proofs, 22 reduced proofs and 4 delegation proofs. Final proofs: 0
+*** Starting recursion level 2 ***
+**** proving using GPU ****
+[2025-06-30T13:22:49.493Z INFO ] BATCH[0] PROVER producing memory commitments for binary with key 1
+[2025-06-30T13:22:50.205Z INFO ] BATCH[0] PROVER produced memory commitments for binary with key 1 in 0.713s
+[2025-06-30T13:22:50.205Z INFO ] BATCH[0] PROVER producing proofs for binary with key 1
+[2025-06-30T13:22:52.337Z INFO ] BATCH[0] PROVER produced proofs for binary with key 1 in 2.131s
+[2025-06-30T13:22:52.337Z INFO ] BATCH[0] PROVER committed to memory and produced proofs for binary with key 1 in 2.849s
+**** proofs generated in 2.849s ****
+Created 0 basic proofs, 12 reduced proofs and 2 delegation proofs. Final proofs: 0
+*** Starting recursion level 3 ***
+**** proving using GPU ****
+[2025-06-30T13:22:52.357Z INFO ] BATCH[0] PROVER producing memory commitments for binary with key 1
+[2025-06-30T13:22:52.782Z INFO ] BATCH[0] PROVER produced memory commitments for binary with key 1 in 0.426s
+[2025-06-30T13:22:52.783Z INFO ] BATCH[0] PROVER producing proofs for binary with key 1
+[2025-06-30T13:22:53.875Z INFO ] BATCH[0] PROVER produced proofs for binary with key 1 in 1.092s
+[2025-06-30T13:22:53.875Z INFO ] BATCH[0] PROVER committed to memory and produced proofs for binary with key 1 in 1.520s
+**** proofs generated in 1.520s ****
+Created 0 basic proofs, 6 reduced proofs and 1 delegation proofs. Final proofs: 0
+*** Starting recursion level 4 ***
+**** proving using GPU ****
+[2025-06-30T13:22:53.886Z INFO ] BATCH[0] PROVER producing memory commitments for binary with key 1
+[2025-06-30T13:22:54.117Z INFO ] BATCH[0] PROVER produced memory commitments for binary with key 1 in 0.230s
+[2025-06-30T13:22:54.117Z INFO ] BATCH[0] PROVER producing proofs for binary with key 1
+[2025-06-30T13:22:54.791Z INFO ] BATCH[0] PROVER produced proofs for binary with key 1 in 0.674s
+[2025-06-30T13:22:54.791Z INFO ] BATCH[0] PROVER committed to memory and produced proofs for binary with key 1 in 0.906s
+**** proofs generated in 0.906s ****
+Created 0 basic proofs, 3 reduced proofs and 1 delegation proofs. Final proofs: 0
+*** Starting recursion level 5 ***
+**** proving using GPU ****
+[2025-06-30T13:22:54.798Z INFO ] BATCH[0] PROVER producing memory commitments for binary with key 1
+[2025-06-30T13:22:54.967Z INFO ] BATCH[0] PROVER produced memory commitments for binary with key 1 in 0.168s
+[2025-06-30T13:22:54.967Z INFO ] BATCH[0] PROVER producing proofs for binary with key 1
+[2025-06-30T13:22:55.471Z INFO ] BATCH[0] PROVER produced proofs for binary with key 1 in 0.504s
+[2025-06-30T13:22:55.471Z INFO ] BATCH[0] PROVER committed to memory and produced proofs for binary with key 1 in 0.674s
+**** proofs generated in 0.674s ****
+Created 0 basic proofs, 2 reduced proofs and 1 delegation proofs. Final proofs: 0
+Stopping recursion.
+Writing proofs to "output"
+**** Total time on production critical path 45.750s ****
+
+
+# gpu    pwr  gtemp  mtemp     sm    mem    enc    dec    jpg    ofa   mclk   pclk 
+# Idx      W      C      C      %      %      %      %      %      %    MHz    MHz 
+    0    133     44      -     62     22      0      0      0      0  10501   2730 
+    0    153     42      -     57     19      0      0      0      0  10501   2730 
+    0    150     42      -     51     24      0      0      0      0  10501   2730 
+    0    154     45      -     36     27      0      0      0      0  10501   2730 
+    0    253     53      -     98     75      0      0      0      0  10501   2280 
+    0    299     53      -    100     76      0      0      0      0  10501   2400 
+    0    297     52      -     98     68      0      0      0      0  10501   2205 
+    0    298     53      -     98     78      0      0      0      0  10501   2070 
+    0    296     50      -     98     76      0      0      0      0  10501   1890 
+    0    273     51      -     97     97      0      0      0      0  10501   2325 
+    0    304     53      -    100     70      0      0      0      0  10501   1950 
+    0    297     50      -     98     84      0      0      0      0  10501   2370 
+    0    299     53      -     99     76      0      0      0      0  10501   2280 
+    0    293     52      -     98     82      0      0      0      0  10501   1980 
+    0    298     53      -     98     83      0      0      0      0  10501   2310 
+    0    298     51      -     98     77      0      0      0      0  10501   2295 
+    0    301     53      -     98     83      0      0      0      0  10501   2520 
+    0    300     54      -     99     73      0      0      0      0  10501   1935 
+    0    298     52      -     97     84      0      0      0      0  10501   2505 
+    0    297     56      -     97     80      0      0      0      0  10501   2175 
+    0    298     52      -     98     74      0      0      0      0  10501   2340 
+    0    297     54      -     95     72      0      0      0      0  10501   2580 
+    0    299     56      -    100     74      0      0      0      0  10501   2160 
+    0    223     53      -     97     87      0      0      0      0  10501   2730 
+    0    115     47      -     49     19      0      0      0      0  10501   2730 
+    0    132     47      -     79     16      0      0      0      0  10501   2730 
+    0    130     52      -      0      0      0      0      0      0  10501   2730 
+    0    252     54      -     96     74      0      0      0      0  10501   1905 
+    0    300     58      -    100     76      0      0      0      0  10501   2370 
+    0    294     55      -     99     73      0      0      0      0  10501   2145 
+    0    299     54      -     99     77      0      0      0      0  10501   2250 
+    0    300     54      -     98     66      0      0      0      0  10501   2310 
+    0    302     57      -     98     78      0      0      0      0  10501   2355 
+    0    298     56      -     98     64      0      0      0      0  10501   2115 
+    0    202     48      -     45     18      0      0      0      0  10501   2715 
+    0    167     48      -     99     75      0      0      0      0  10501   2370 
+    0    289     56      -     98     79      0      0      0      0  10501   1995 
+    0    296     57      -     98     74      0      0      0      0  10501   2070 
+    0    297     55      -     98     64      0      0      0      0  10501   2145 
+    0    245     58      -     56     24      0      0      0      0  10501   2715 
+    0    215     55      -     97     78      0      0      0      0  10501   2370 
+    0    294     56      -     98     72      0      0      0      0  10501   2415 
+    0    236     52      -     87     38      0      0      0      0  10501   2715 
+    0    244     56      -     97     77      0      0      0      0  10501   2295 
+    0    264     59      -     98     64      0      0      0      0  10501   2265 
